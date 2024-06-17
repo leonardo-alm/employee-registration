@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "target": "esnext",
+      "module": "commonjs",
+      "moduleResolution": "node",                    
+      "typeRoots": ["./@types", "./node_modules/@types"],              
+      "esModuleInterop": true,                                 
+      "forceConsistentCasingInFileNames": true,            
+      "strict": true,          
+      "outDir": "./dist",                  
+    },
+    "include": ["**/*"],
+    "exclude": ["node_modules", "dist", "client"],
+    "ts-node": {
+      "files": true
+    }
+  }
+  
