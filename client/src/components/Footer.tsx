@@ -11,7 +11,7 @@ const links = [
   },
   {
     icon: <FaGithub size={30} />,
-    url: 'https://github.com',
+    url: 'https://github.com/leonardo-alm/employee-registration',
   },
   {
     icon: <FaWhatsapp size={30} />,
