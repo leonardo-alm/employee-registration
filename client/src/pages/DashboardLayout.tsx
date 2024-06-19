@@ -43,7 +43,8 @@ const DashboardLayout = () => {
     },
     (error) => {
       if (error?.response?.status === 401) {
-        setIsAuthError(true);
+        if (isAuthError === false) setIsAuthError(true);
+        return
       }
       return Promise.reject(error);
     }

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { LOCATION, GENDER, ETHNICITY, DEPARTMENT } from '../utils/constants';
+import { GENDER, ETHNICITY, DEPARTMENT } from '../utils/constants';
 
 export interface IEmployee {
   name: string,

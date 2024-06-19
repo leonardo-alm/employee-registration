@@ -5,7 +5,7 @@ import {
   NotFoundError,
   UnauthorizedError,
 } from '../errors/customErrors';
-import { DEPARTMENT, ETHNICITY, GENDER, LOCATION } from '../utils/constants';
+import { DEPARTMENT, ETHNICITY, GENDER } from '../utils/constants';
 import mongoose from 'mongoose';
 import Employee from '../models/EmployeeModel';
 import User from '../models/UserModel';

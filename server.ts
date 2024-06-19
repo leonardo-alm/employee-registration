@@ -12,7 +12,6 @@ import employeeRouter from './routes/employeeRouter';
 import authRouter from './routes/authRouter';
 import userRouter from './routes/userRouter';
 
-
 // middleware
 import errorHandlerMiddleware from './middleware/errorHandlerMiddleware';
 import { authenticateUser } from './middleware/authMiddleware';

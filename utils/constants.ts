@@ -20,13 +20,6 @@ export const DEPARTMENT= {
   SALES: 'sales',
   SECURITY: 'security',
 }
-export const LOCATION = {
-  POA: 'Porto Alegre',
-  SL: 'São Leopoldo',
-  NH: 'Novo Hamburgo',
-  BP: 'Bom Princípio',
-  VIM: 'Viamão',
-}
 
 export const SORT_BY = {
   NEWEST_FIRST: 'newest',

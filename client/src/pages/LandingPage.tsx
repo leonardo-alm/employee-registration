@@ -9,6 +9,7 @@ export const loader = async () => {
     if (data) return redirect('/dashboard');
     return null
   } catch (error) {
+    console.log("catch!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     return null
   }
 };
