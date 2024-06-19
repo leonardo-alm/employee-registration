@@ -5,6 +5,27 @@ const Wrapper = styled.nav`
   .nav-links {
     display: none;
   }
+  .modal-nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--fluid-width);
+    background-color: #1F0049;
+    color: white;
+    }
+  .modal-nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      padding: 1rem;
+      width: 100%;
+      text-transform: capitalize;
+    }
+    .modal-nav-link:hover {
+      background-color: #FFFFFF;
+      color: #1F0049;
+    }
   @media (min-width: 992px) {
     display: block;
     box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.1);

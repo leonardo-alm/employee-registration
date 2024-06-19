@@ -7,14 +7,14 @@ const NavLinks = ({ isModalOpen }: { isModalOpen: boolean }) => {
   const { toggleModal } = useDashboardContext()!;
   return (
     <Wrapper>
-      <div className='nav-links'>
+      <div className={isModalOpen ? 'modal-nav-links' : 'nav-links'}>
         {links.map((link) => {
           const { text, path} = link;
           return (
             <NavLink
               to={path}
               key={text}
-              className='nav-link'
+              className={isModalOpen ? 'modal-nav-link' : 'nav-link'}
               onClick={isModalOpen ? toggleModal : undefined }
               end
             >

@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
+width: 90%;
+@media (min-width: 992px){
+  width: 50vw;
+}
   .form-title {
     margin-bottom: 2rem; 
   }

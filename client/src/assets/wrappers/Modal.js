@@ -42,12 +42,13 @@ const Wrapper = styled.aside`
     color: var(--red-dark);
     cursor: pointer;
   }
-  .nav-links {
+/*   .nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: var(--fluid-width);
     background-color: #1F0049;
+    color: white;
     }
   .nav-link {
       display: flex;
@@ -61,7 +62,7 @@ const Wrapper = styled.aside`
     .nav-link:hover {
       background-color: #FFFFFF;
       color: #1F0049;
-    }
+    } */
   .icon {
     font-size: 1.5rem;
     margin-right: 1rem;

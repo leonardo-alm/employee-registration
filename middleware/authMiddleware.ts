@@ -19,7 +19,7 @@ declare global {
 }
 export const authenticateUser = (req: Request, res: Response, next: NextFunction) => {
   const { token } = req.cookies;
-  if (!token) throw new UnauthenticatedError('authentication invalidddd');
+  if (!token) throw new UnauthenticatedError('authentication invalid!');
 
   try {
     const { userId, email } = verifyJWT(token) as UserPayload

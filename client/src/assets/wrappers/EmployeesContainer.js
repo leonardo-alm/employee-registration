@@ -34,6 +34,7 @@ const Wrapper = styled.section`
     .employees {
       grid-template-columns: 1fr;
       gap: 2rem;
+      width: 50vw;
     }
   }
 `;

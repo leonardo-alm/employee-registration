@@ -11,6 +11,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
   }
   h2 {
     font-weight: 600;
@@ -48,7 +49,7 @@ justify-content: center;
       display: block;
       margin-right: 0px;
       margin-left: 0;
-      height: 58vh;
+      height: 45vh;
       width: auto;
     }
   }
